@@ -17,6 +17,7 @@ add_library(yams_engine STATIC
     src/Player.cpp
     src/Board.cpp
     src/Game.cpp
+    src/GameView.cpp
 )
 target_include_directories(yams_engine PUBLIC include)
 target_compile_options(yams_engine PRIVATE -Wall -Wextra -Wpedantic)

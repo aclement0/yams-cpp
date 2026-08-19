@@ -14,6 +14,7 @@ add_executable(yams_tests
     test_player.cpp
     test_board.cpp
     test_game.cpp
+    test_game_view.cpp
 )
 target_link_libraries(yams_tests PRIVATE yams_engine Catch2::Catch2WithMain)
 
