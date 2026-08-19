@@ -14,6 +14,9 @@ add_library(yams_engine STATIC
     src/ScoreCategory.cpp
     src/ScoreCalculator.cpp
     src/ScoreCard.cpp
+    src/Player.cpp
+    src/Board.cpp
+    src/Game.cpp
 )
 target_include_directories(yams_engine PUBLIC include)
 target_compile_options(yams_engine PRIVATE -Wall -Wextra -Wpedantic)

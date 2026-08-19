@@ -11,6 +11,9 @@ add_executable(yams_tests
     test_score_category.cpp
     test_score_calculator.cpp
     test_score_card.cpp
+    test_player.cpp
+    test_board.cpp
+    test_game.cpp
 )
 target_link_libraries(yams_tests PRIVATE yams_engine Catch2::Catch2WithMain)
 
