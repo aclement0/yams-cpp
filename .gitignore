@@ -1,0 +1,25 @@
+# Build
+build/
+cmake-build-*/
+out/
+
+# Compiled objects / binaries
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dylib
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
